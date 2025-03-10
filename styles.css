@@ -1,0 +1,90 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* 标题样式 */
+h1, h2, h3 {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+/* 优惠码展示框 */
+.coupon-box {
+    background: #ffffff;
+    padding: 15px;
+    border-left: 5px solid #0073e6;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    background: #0073e6;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #005bb5;
+}
+
+/* FAQ 区块 */
+.faq {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.faq p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
